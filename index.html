@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>WishList</title>
+        <link rel="icon" href="img/favicon.png">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="app">
+            <header>
+                <img src="img/logo.png" alt="WishList Logo" height="50px" >
+                <div class="toggle">
+                    
+                    <div id="ativo" class="ativo--tab"></div>
+                    <i class="fas fa-th " onclick="tab()"></i>
+                    <i class="fas fa-list-ul" onclick="list()"></i>
+                </div>
+            </header>
+
+            <div class="section__header">
+                <div class="section__header__heart">
+                    <img src="img/heartBlack.png" alt="" height="20px">
+                    <p class="title"><b>Meus</b> desejos</p>
+                </div>
+                <div class="section__info">
+                    <div class="section__info__und">
+                        <span id="qtd_produtos"></span>
+                    </div>
+                    <div class="section__info__und">
+                        <span id="valor_produtos"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="produtos">
+                
+            </div>
+
+            <footer>
+                <p>Feito por <b>Barbhara Resende</b></p>
+            </footer>
+        </div>
+        
+        <script src="app.js"></script>
+    </body>
+
+</html>

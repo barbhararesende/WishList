@@ -1,0 +1,45 @@
+{
+    "produtos" : [
+        {
+            "nome" : "Amazon Echo Show 8",
+            "preco" : "854.05",
+            "link"  : "https://www.amazon.com.br/Echo-Show-8-Smart-Speaker-Alexa/dp/B07SG8F1QF/",
+            "status" : "ativo",
+            "img" : "https://cnet3.cbsistatic.com/img/nWUXEcoodFoAaZ4lADvjgj-V2pI=/1200x675/2019/11/22/26777f92-446a-4b1d-ad86-cdcf94fe0dce/echo-show-8-3.jpg"
+        },
+        {
+            "nome" : "Google Chrome Cast 3",
+            "preco" : "369.00",
+            "link"  : "https://www.magazineluiza.com.br/chromecast-3-streaming-device-google-full-hd-conexao-hdmi/p/031309900/et/aple/?partner_id=2470",
+            "status" : "ativo",
+            "img" : "https://a-static.mlcdn.com.br/618x463/chromecast-3-streaming-device-google-full-hd-conexao-hdmi/magazineluiza/031309900/d5efd965b2b70b23593042c31dc8e98e.jpg"
+        },
+        {
+            "nome" : "Playstation 5",
+            "preco" : "5400.00",
+            "link"  : "https://www.magazineluiza.com.br/console-playstation-5-ps5-sony/p/043079500/ga/otga/?partner_id=9815",
+            "status" : "inativo"
+        },
+        {
+            "nome" : "Câmera Instax Mini 11",
+            "preco" : "399.00",
+            "link"  : "https://www.amazon.com.br/C%C3%A2mera-Instax-Mini-Fujifilm-Brasil/dp/B08P691GC6/ref=asc_df_B08P691GC6",
+            "status" : "ativo",
+            "img" : "https://images.summitmedia-digital.com/spotph/images/2020/02/26/87838658-1418331935015054-3933630292933214208-o-1582695753.jpg"
+        },
+        {
+            "nome" : "Apple Wath Series 6",
+            "preco" : "5299.00",
+            "link"  : "https://www.apple.com/br/shop/buy-watch/apple-watch/cinza-espacial-alum%C3%ADnio-preto-pulseira-esportiva?preSelect=false&product=M00H3BE/A&step=detail#",
+            "status" : "ativo",
+            "img" : "https://cdn.pocket-lint.com/r/s/1200x/assets/images/149578-smartwatches-news-feature-apple-watch-series-6-specs-features-price-and-release-date-image1-fwp0ovznmh.jpg"
+        },
+        {
+            "nome" : "Fender Telecaster Sunburst",
+            "preco" : "9443.70",
+            "link"  : "https://www.fender.com.br/produto/10171754/guitarra-fender-deluxe-tele-thinline-pau-ferro-014-7603-300-3-color-sunburst",
+            "status" : "ativo",
+            "img" : "https://www.fmicassets.com/Damroot/ZoomJpg/10001/0145212500_gtr_cntbdyright_001_nr.jpg"
+        }
+    ]
+}
