@@ -1,6 +1,7 @@
 let dados = {};
 
 (async () => {
+    // dados = await fetch('https://ciag-assets.s3.amazonaws.com/produtos.json')
     dados = await fetch('produtos.json')
         .then(response => {
             return response.json();
